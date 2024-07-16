@@ -16,7 +16,7 @@ This project involves web scraping, data chunking and embedding, vector database
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/Jeevan-prasanth/Q-A-bot.git
 cd your-repo
 ```
 ### 2. Create and Activate a Virtual Environment
