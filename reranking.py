@@ -18,8 +18,8 @@ import pymilvus
 print(f"pymilvus version: {pymilvus.__version__}")
 
 # Milvus connection details
-TOKEN = "1400f9f758b992e4335591892865c1955d39f7e2f2a7152f15024b2f515f959f7e997b977f9213c6efb9c50868dbcd0a53a498fd"
-CLUSTER_ENDPOINT = "https://in03-acec7c590c61ba8.api.gcp-us-west1.zillizcloud.com"
+TOKEN = ""
+CLUSTER_ENDPOINT = ""
 
 # Set up gRPC channel options for maximum message size
 grpc_channel_options = [
