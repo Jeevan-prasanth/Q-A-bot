@@ -9,11 +9,11 @@ from pymilvus import MilvusClient
 import pymilvus
 print(f"pymilvus version: {pymilvus.__version__}")
 from pymilvus import connections, utility
-TOKEN = "1400f9f758b992e4335591892865c1955d39f7e2f2a7152f15024b2f515f959f7e997b977f9213c6efb9c50868dbcd0a53a498fd"
+TOKEN = ""
 
 # # Connect to Zilliz cloud using endpoint URI and API key TOKEN.
 # # TODO change this.
-CLUSTER_ENDPOINT="https://in03-acec7c590c61ba8.api.gcp-us-west1.zillizcloud.com"
+CLUSTER_ENDPOINT=""
 # CLUSTER_ENDPOINT="https://in03-48a5b11fae525c9.api.gcp-us-west1.zillizcloud.com:443"
 connections.connect(
     alias='default',
